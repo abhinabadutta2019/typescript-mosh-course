@@ -1,10 +1,10 @@
 "use strict";
-let employee = {
-    id: 1,
-    name: "Mosh",
-    retire: (date) => {
-        console.log(date);
-    },
-};
-console.log(employee);
+function kgToLbs(weight) {
+    if (typeof weight === "number") {
+        return weight * 2;
+    }
+    else
+        return parseInt(weight);
+}
+console.log(kgToLbs("11"));
 //# sourceMappingURL=index.js.map
