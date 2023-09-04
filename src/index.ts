@@ -1,11 +1,15 @@
-function calculateTax(income: number): number {
-  //   return 3;
+type Employee = {
+  readonly id: number;
+  name: string;
+  retire: (date: Date) => void;
+};
 
-  //
-  if (income < 50) {
-    return income * 2;
-  }
-  return income * 1.5;
-}
+let employee: Employee = {
+  id: 1,
+  name: "Mosh",
+  retire: (date: Date) => {
+    console.log(date);
+  },
+};
 
-console.log(calculateTax(100));
+console.log(employee);
