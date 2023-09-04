@@ -1,5 +1,5 @@
-let sales = 123_456;
-let course = "Web devolopment";
-let is_published: boolean = true;
+let numbers: number[] = [1, 2, 4];
 
-console.log(sales);
+// console.log(numbers);
+
+numbers.forEach((number) => console.log(number));
