@@ -1,5 +1,11 @@
-let numbers: number[] = [1, 2, 4];
+function calculateTax(income: number): number {
+  //   return 3;
 
-// console.log(numbers);
+  //
+  if (income < 50) {
+    return income * 2;
+  }
+  return income * 1.5;
+}
 
-numbers.forEach((number) => console.log(number));
+console.log(calculateTax(100));
