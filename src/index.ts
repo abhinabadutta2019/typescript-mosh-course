@@ -1,7 +1,5 @@
-let age: number = 20;
+let sales = 123_456;
+let course = "Web devolopment";
+let is_published: boolean = true;
 
-if (age < 50) {
-  age += 10;
-}
-
-console.log(age);
+console.log(sales);

@@ -1,7 +1,6 @@
 "use strict";
-let age = 20;
-if (age < 50) {
-    age += 10;
-}
-console.log(age);
+let sales = 123456;
+let course = "Web devolopment";
+let is_published = true;
+console.log(sales);
 //# sourceMappingURL=index.js.map
